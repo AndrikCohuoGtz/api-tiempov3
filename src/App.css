@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(36, 45, 61);
+}
+.container {
+  width: 90%;
+  font-family: sans-serif;
+  padding: 0 70px;
+}
+.container-header {
+  margin: 50px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.card {
+  align-items: center;
+  background-color: rgb(135, 135, 135);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+}
+.card-header{
+  width: 150px;
+  height: 200px;
+  position: relative;
+  text-align: right;
+}
+.card-header-icon{
+  position: absolute;
+  top: 20%;
+  left: -30%;
+}
+.card-header-icon img {
+  width: 120%;
+}
+.card-header-info{
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+  flex-direction: column;
+  overflow: hidden;
+  color: black;
+  width: 100%;
+}
+.card-header-info-condition{
+  font-size: 14px;
+  text-align: right;
+  width: 200px;
+  margin: -5px 20px -18px 0px;
+}
+.card-header-info-temp{
+  font-size: 30px;
+  font-weight: lighter;
+  position: relative;
+  margin: 2px 20px -25px 0px;
+}
+.card-header-info-temp span{
+  position: absolute;
+  top: 3%;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.card-header-info-city{
+  font-size: 13px;
+  margin: 10px 8px;
+  width: 200px;
+}
+.card-body{
+  background-color: rgb(250, 250, 249);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+.card-body-info-wind{
+  background-color: rgb(250, 250, 249);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: -20px;
+}
+.card-body-info-humidity{
+  background-color: rgb(250, 250, 249);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: -40px;
+}
+.card-body-info-pressure{
+  background-color: rgb(250, 250, 249);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.container {
+  margin: 20px auto;
+  text-align: center;
+}
+.input {
+  height: 35px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.btn {
+  height: 35px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
